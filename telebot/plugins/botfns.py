@@ -202,7 +202,7 @@ async def mod(event):
 
 
 @telebot.on(admin_cmd(pattern="checkspam ?(.*)"))
-@telebot.on(sudo_cmd(pattern="checkspam ?(.*), allow_sudo=True"))
+@telebot.on(sudo_cmd(pattern="checkspam ?(.*)", allow_sudo=True))
 async def _(event):
     bot = "@SpamBot"
     if event.fwd_from:
