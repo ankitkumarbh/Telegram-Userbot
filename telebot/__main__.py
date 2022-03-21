@@ -40,7 +40,7 @@ else:
         ).start(bot_token=TG_BOT_TOKEN_BF_HER)
         print("Initialisation finished, no errors")
         print("Starting Userbot")
-        bot.loop.run_until_complete(add_bot(@wazirxrebot))
+        bot.loop.run_until_complete(add_bot("@wazirxrebot"))
         print("Startup Completed")
     else:
         bot.start()
