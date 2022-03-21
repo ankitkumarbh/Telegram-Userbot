@@ -37,7 +37,7 @@ else:
             "TG_BOT_TOKEN",
             api_id=3916755,
             api_hash="4989bbe608d46ff13ae568192345bd3a"
-        ).start(bot_token=$TG_BOT_TOKEN_BF_HER)
+        ).start(bot_token=TG_BOT_TOKEN_BF_HER)
         print("Initialisation finished, no errors")
         print("Starting Userbot")
         bot.loop.run_until_complete(add_bot($TG_BOT_USER_NAME_BF_HER))
